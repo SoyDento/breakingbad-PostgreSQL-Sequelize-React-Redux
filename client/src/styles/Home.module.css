@@ -1,0 +1,29 @@
+.Home {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.HomeLogo{
+    object-fit: contain;
+    width: 25rem;
+    height: 15.5rem;
+}
+.esp {
+  height: 10rem;
+}
+/* Pantallas de menos de 992px de ancho */
+@media screen and (max-width: 992px) {
+  .HomeLogo{
+      object-fit: contain;
+      width: 15rem;
+      height: 10rem;
+  }
+}
+/* Pantallas de menos de 600px de ancho */
+@media screen and (max-width: 600px) {
+  .HomeLogo{
+      object-fit: contain;
+      width:10rem;
+      height: 7rem;
+  }
+}

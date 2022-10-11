@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    background-color: rgba(10, 10, 10, 0.5);
+    justify-content: space-around;
+    margin-bottom: 1em;
+    padding: 0.5em 0;
+}
+@media screen and (max-width: 400px) {
+  .navbar{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      background-color: rgba(10, 10, 10, 0.5);
+      margin: 1rem;
+      padding: 0.5em 0;
+      font-size: 0.8rem;
+  }
+  .link {
+    margin: 1rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+}

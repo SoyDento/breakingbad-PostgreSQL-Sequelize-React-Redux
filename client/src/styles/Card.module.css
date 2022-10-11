@@ -1,0 +1,25 @@
+img{
+  object-fit: cover;
+  width: 250px;
+  height: 320px;
+  border: 70px;
+  border-color: yellow;
+}
+
+.bot {
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  img{  
+    object-fit: cover;
+    width: 150px;
+    height: 220px;
+    border: 70px;
+    border-color: yellow;
+  }
+
+  .bot {
+    padding-bottom: 30px;
+  }
+}

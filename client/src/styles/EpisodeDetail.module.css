@@ -1,0 +1,32 @@
+.EpisodeDetailContainer{
+
+    text-align: center;
+    background-color: grey;
+    opacity: 90%;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 40px;
+    width: 40%;
+}
+.EpisodeDetailData ul {
+    list-style: none;
+
+}
+.EpisodeDetailData ul li {
+    margin-left: 18%;
+    width: 60%;
+}
+
+/* Pantallas de menos de 600px de ancho */
+@media screen and (max-width: 600px) {
+
+  .EpisodeDetailContainer{
+      padding: 15px;
+      margin: 40px;
+      width: 70%;
+  }
+  .EpisodeDetailData ul li {
+      margin-left: 10%;
+      font-size: 1rem;
+  }
+}
